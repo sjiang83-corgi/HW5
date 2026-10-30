@@ -1,0 +1,7 @@
+Rule,Samples
+IF lumbar_pain = no AND urine_pushing = no THEN Neither,10
+IF lumbar_pain = no AND urine_pushing = yes THEN Bladder only,40
+IF lumbar_pain = yes AND temperature <= 37.95 THEN Neither,20
+IF lumbar_pain = yes AND temperature > 37.95 AND micturition_pain = no THEN Nephritis only,21
+IF lumbar_pain = yes AND temperature > 37.95 AND micturition_pain = yes AND urine_pushing = no THEN Nephritis only,10
+IF lumbar_pain = yes AND temperature > 37.95 AND micturition_pain = yes AND urine_pushing = yes THEN Both,19

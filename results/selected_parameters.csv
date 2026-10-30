@@ -1,0 +1,6 @@
+,0
+Ridge alpha,63.09573444801943
+LASSO raw alpha,0.0001
+LASSO standardized alpha,0.0005623413251903491
+PCR M,93.0
+XGBoost alpha,3.0
